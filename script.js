@@ -1,19 +1,19 @@
 // ✅ EDITA ESTO: códigos -> persona + foto
 // Recomendación: usa imágenes locales en /images para que funcione perfecto en GitHub Pages.
 const CODE_MAP = {
-  "SANCHEZ-2K9A": { name: "Paula", photo: "images/paula.PNG" },
-  "SANCHEZ-7Q1P": { name: "Andrés", photo: "images/andres.PNG" },
-  "SANCHEZ-4LM8": { name: "Adri", photo: "images/adri.PNG" },
-  "SANCHEZ-9Z0X": { name: "Paola", photo: "images/paola.PNG" },
-  "SANCHEZ-1H2T": { name: "Teresa", photo: "images/teresa.PNG" },
-  "SANCHEZ-2D3D": { name: "Julia", photo: "images/julia.PNG" },
-  "SANCHEZ-3A68": { name: "Rafa", photo: "images/rafa.PNG" },
-  "SANCHEZ-4D8G": { name: "Itziar", photo: "images/itziar.PNG" },
-  "SANCHEZ-5F0J": { name: "Dario", photo: "images/dario.PNG" },
-  "SANCHEZ-6H13": { name: "MariLuz", photo: "images/mariluz.PNG" },
-  "SANCHEZ-7K3U": { name: "Miguel", photo: "images/miguel.PNG" },
-  "SANCHEZ-8Z5Z": { name: "Cinthia", photo: "images/cinthia.PNG" },
-  "SANCHEZ-9Q6M": { name: "Valentina", photo: "images/valentina.PNG" }
+  "SANCHEZ-2K9A": { name: "Paula", photo: "images/paula.png" },
+  "SANCHEZ-7Q1P": { name: "Andrés", photo: "images/andres.png" },
+  "SANCHEZ-4LM8": { name: "Adri", photo: "images/adri.png" },
+  "SANCHEZ-9Z0X": { name: "Paola", photo: "images/paola.png" },
+  "SANCHEZ-1H2T": { name: "Teresa", photo: "images/teresa.png" },
+  "SANCHEZ-2D3D": { name: "Julia", photo: "images/julia.png" },
+  "SANCHEZ-3A68": { name: "Rafa", photo: "images/rafa.png" },
+  "SANCHEZ-4D8G": { name: "Itziar", photo: "images/itziar.png" },
+  "SANCHEZ-5F0J": { name: "Dario", photo: "images/dario.png" },
+  "SANCHEZ-6H13": { name: "MariLuz", photo: "images/mariluz.png" },
+  "SANCHEZ-7K3U": { name: "Miguel", photo: "images/miguel.png" },
+  "SANCHEZ-8Z5Z": { name: "Cinthia", photo: "images/cinthia.png" },
+  "SANCHEZ-9Q6M": { name: "Valentina", photo: "images/valentina.png" }
 };
 
 const input = document.getElementById("codeInput");

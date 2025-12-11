@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Regalo Invisible Familia Sánchez 2025</title>
+  <link rel="shortcut icon" href="images/icono.PNG" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/icono.PNG">
+  <script type="text/javascript" src="snow.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="snow" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero__badge">🎄 2025</div>
+    <h1>Regalo Invisible Familia Sánchez 2025</h1>
+    <p class="subtitle">
+      El día <strong>24 de diciembre de 2025</strong> tendrás que hacer un regalo a cierta persona…
+      <br />
+      Pon aquí el código que te han pasado para saber qué persona te ha tocado.
+    </p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Introduce tu código</h2>
+
+      <div class="form">
+        <label class="label" for="codeInput">Código</label>
+        <div class="row">
+          <input id="codeInput" type="text" inputmode="text" autocomplete="off"
+                 placeholder="Ej: SANCHEZ-XXXX" />
+          <button id="btnReveal" class="btn" type="button">Descubrir</button>
+        </div>
+        <p class="hint">Tip: no importa si lo escribes en minúsculas o con espacios.</p>
+      </div>
+
+      <div id="result" class="result hidden" aria-live="polite">
+        <div class="result__left">
+          <div class="tag">🎁 Te ha tocado:</div>
+          <div id="personName" class="name">—</div>
+          <div class="meta">
+            <span class="pill">Máximo: <strong>5€</strong></span>
+            <span class="pill">📅 24/12/2025</span>
+          </div>
+          <p class="message">
+            ¡Sorpresa! Recuerda que es un detalle pequeñito pero con cariño.
+            <br />
+            <strong>Te esperamos ese día</strong> 🎅✨
+          </p>
+        </div>
+
+        <div class="result__right">
+          <div class="photoFrame">
+            <img id="personPhoto" alt="Foto de la persona" />
+          </div>
+        </div>
+      </div>
+
+      <div id="errorBox" class="error hidden" role="alert">
+        Ese código no existe o está mal escrito. Revisa letras/números y prueba otra vez.
+      </div>
+
+      <div class="divider"></div>
+
+      <details class="faq">
+        <summary>¿No sabes que regalarle?</summary>
+        <ol>
+          <li>El máximo de importe son 5€ pero puedes ser original.</li>
+          <li>Te ha tocado una persona aleatoria por lo que nadie sabe a quién le ha tocado.</li>
+        </ol>
+      </details>
+    </section>
+
+    <footer class="footer">
+      <span>🎄 Familia Sánchez · Regalo Invisible · 2025</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
